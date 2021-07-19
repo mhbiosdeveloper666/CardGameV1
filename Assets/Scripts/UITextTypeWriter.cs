@@ -28,7 +28,7 @@ public class UITextTypeWriter : MonoBehaviour
 		{
 			if (c=='.') {
 				m_MyAudioSource.Stop();
-				yield return new WaitForSeconds (1.125f);
+				yield return new WaitForSeconds (1.12f);
 			}
 			else{
 			m_MyAudioSource.Play();
